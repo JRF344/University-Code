@@ -1,4 +1,4 @@
-## Templates
+## Templates & Snippets
 ### Java base code example
 ```java
 package example_code; // <-- Name MUST match folder
