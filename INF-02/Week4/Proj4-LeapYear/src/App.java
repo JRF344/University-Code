@@ -1,6 +1,3 @@
-## Templates & Snippets
-### Java base code example
-```java
 package example_code; // <-- Name MUST match folder
 import java.io.*;
 
@@ -9,10 +6,6 @@ public class BaseCode { // <-- Name MUST match .java file name
     static PrintStream out = System.out;
 
     public static void main(String[] args) throws IOException {
-
-        System.out.println();
-        
-
+        int dia = .parseDouble(in.readLine());
     }
 }
-```
