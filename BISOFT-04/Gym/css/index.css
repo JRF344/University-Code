@@ -1,0 +1,81 @@
+.sct-banner {
+    background-image: url(../img/banner_720.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    min-height: calc(100vh - 50px);
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 3%;
+}
+.sct-banner .info {
+    width: 23%;
+    color: white;
+}
+.sct-banner .info p:nth-child(1) {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.sct-banner .info p:nth-child(2) {
+    font-size: 160px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    -webkit-text-stroke: 3px #e74c3c;
+    color: transparent;
+}
+.sct-banner .info p:nth-child(3) {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+#sct-members {
+    padding: 30px 3%;
+}
+#sct-members h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+#sct-members .cards {
+    display: flex;
+    justify-content: space-around;
+}
+#sct-members .cards .card {
+    border: 1px solid black;
+    width: 30%;
+    padding: 20px 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sct-members .cards .card header {
+    text-align: center;
+}
+#sct-members .cards .card header p:nth-child(1) {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#sct-members .cards .card header p:nth-child(2) {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+#sct-members .cards .card .price {
+    border: 2px solid black;
+    width: 70%;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+#sct-members .cards .card .price p:first-child {
+    font-size: 24px;
+}
+#sct-members .cards .card .price p:nth-child(2) {
+    font-size: 32px;
+    font-weight: bold;
+}
+#sct-members .cards .card .price p span {
+    font-size: 16px;
+    font-weight: lighter;
+}

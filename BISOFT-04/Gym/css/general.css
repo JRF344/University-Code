@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+.btn-general {
+    background-color: #e74c3c;
+    border: 2px solid #e74c3c;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+}
+.header-principal {
+    background: #2c3e50;
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    padding: 0 3%;
+}
+.header-principal .logo {
+    height: 50px;
+    background: #fff;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+.header-principal .logo img {
+    height: 100%;
+}
+.header-principal nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+.header-principal nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.header-principal nav a:hover {
+    text-decoration: underline #8e44ad;
+}
