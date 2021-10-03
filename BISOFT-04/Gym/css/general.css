@@ -44,3 +44,11 @@ body {
 .header-principal nav a:hover {
     text-decoration: underline #8e44ad;
 }
+.input-default {
+    border-bottom: 2px solid #000;
+}
+.input-default input {
+    border: 0;
+    outline: none;
+    width: 80%;
+}

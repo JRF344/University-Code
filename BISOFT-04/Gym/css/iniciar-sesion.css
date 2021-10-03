@@ -1,0 +1,21 @@
+.sct-ingresar {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 3%;
+}
+.sct-ingresar .contenedor-imagen {
+    width: 40%;
+}
+.sct-ingresar .contenedor-imagen img {
+    width: 100%;
+}
+.sct-ingresar form {
+    width: 35%;
+}
+.sct-ingresar form h1 {
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+.sct-ingresar .input-container {
+    margin-bottom: 30px;
+}
