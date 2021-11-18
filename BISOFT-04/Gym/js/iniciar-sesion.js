@@ -32,14 +32,7 @@ const validar = ()=> {
             'confirmButtonText': 'Entendido'
         });
     }else{
-        Swal.fire({
-            'icon': 'success',
-            'title': 'Ha iniciado sesion con el correo:',
-            'text': inputCorreo.value,
-            'confirmButtonText': 'Entendido'
-        }).then(()=>{
-            window.location.href = 'dashboard.html';    
-        });
+        validarCredenciales(inputCorreo.value, inputContrasena.value);
     }
 }
 
